@@ -20,4 +20,11 @@ WHERE date = '19830715'
 ```
 Answer
 ```sql
+SELECT *
+FROM suspects s JOIN interviews i 
+ON s.id = i.suspect_id
+WHERE bandana_color = 'red'
+AND accessory = 'gold watch'
+;
+```
 
