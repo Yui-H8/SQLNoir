@@ -8,7 +8,7 @@ Investigate the crime scene, review the list of suspects, and examine interview 
 2. Identify the suspect whose profile matches the witness description.
 3. Verify the suspect using their interview transcript.
 ---
-```@SQL
+```SQL
 SELECT *
 FROM suspects s
 JOIN interviews i ON s.id = i.suspect_id 
