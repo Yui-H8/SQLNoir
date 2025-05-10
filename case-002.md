@@ -18,7 +18,7 @@ ON cs.id = w.crime_scene_id
 WHERE date = '19830715'
 ;
 ```
-Answer
+main
 ```sql
 SELECT *
 FROM suspects s JOIN interviews i 
