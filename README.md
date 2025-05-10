@@ -13,5 +13,4 @@ Each case in SQL Noir is a unique crime that needs solving. Cases range from sim
 ### Case #001: The Vanishing Briefcase
 Answer: 
 ### Case #002: The Stolen Sound
-Answer: 
-
+Answer: (name) Rico Delgado
