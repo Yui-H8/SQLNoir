@@ -14,3 +14,4 @@ Each case in SQL Noir is a unique crime that needs solving. Cases range from sim
 Answer: (name) Vincent Malone
 ### Case #002: The Stolen Sound
 Answer: (name) Rico Delgado
+### Case #003: The Miami Marina Murder
