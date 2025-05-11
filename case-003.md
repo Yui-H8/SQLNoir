@@ -50,8 +50,8 @@ JOIN hotel_checkins h ON p.id = h.person_id
 WHERE p.address LIKE '%Ocean Drive%'
 ;
 ```
-:::note info
-one who lives on 300ish "Ocean Drive"
+::: note info  
+one who lives on 300ish "Ocean Drive"   
 :::
 
 | info | - | - |
