@@ -55,12 +55,14 @@ one who lives on 300ish "Ocean Drive"
 :::
 
 | info | - | - |
-|:-----------:|:------------:|:------------:|
+|:-----------:|:------------|:------------|
 | id       | 101        | -         |
 | name    | Carlos Mendez      | Fisherman       |
-| area      | Los Ojos       | will         |
-| address         | 369 Ocean Drive          | be           |
-| left       | right       | center       |
-| aligned    | aligned     | aligned      |
-101	Carlos Mendez	Los Ojos	Fisherman	369 Ocean Drive	96	101	This is just a misunderstanding.	101	101	I saw someone check into a hotel on August 13. The guy looked nervous.	101	101	45	Asked for room service menu	89	101	Coral View Resort	19860812
+| area      | Los Ojos       | -         |
+| address         | 369 Ocean Drive          | -           |
+| confession       | This is just a misunderstanding.       | -       |
+| transcript    | I saw someone check into a hotel on August 13.     | -      |
+| hotel_checkin | Coral View Resort | 19860812 |
+| suspicious_activity | Asked for room service menu | - |
+
   
