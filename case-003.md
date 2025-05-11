@@ -16,10 +16,11 @@ AND location = 'Coral Bay Marina'
 ;
 ```
 
-<details open><summary> Murder　</summary>
+<details open><summary> Murder </summary>
 
+  
 <table>
-  <caption>HTMLの要素</caption>
+  <caption> Murder Detail </caption>
   <thead>
     <tr>
       <th>id</th> <th>43</th>
@@ -31,13 +32,10 @@ AND location = 'Coral Bay Marina'
   <tr>
     <td> description </td> <td>The body of an unidentified man was found near the docks. Two people were seen nearby</td>
   </tr>
+    <tr>
+    <td> suspection </td> <td>Two people were seen nearby: one who lives on 300ish "Ocean Drive" and another whose first name ends with "ul" and his last name ends with "ez".</td>
+  </tr>
 </table>
 
-id: 43  
-date: 	location	description
-43	19860814	Coral Bay Marina	The body of an unidentified man was found near the docks. Two people were seen nearby: one who lives on 300ish "Ocean Drive" and another whose first name ends with "ul" and his last name ends with "ez".
-Tab 2
-Table View
-Graph View
 
   
