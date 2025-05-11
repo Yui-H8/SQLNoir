@@ -36,6 +36,19 @@ AND location = 'Coral Bay Marina'
     <td> suspection </td> <td>Two people were seen nearby: one who lives on 300ish "Ocean Drive" and another whose first name ends with "ul" and his last name ends with "ez".</td>
   </tr>
 </table>
+</details>
 
+---
+* Persin who lives "Ocean Drive"
+```sql
+SELECT *
+FROM person p JOIN confessions c
+ON p.id = c.person_id
+JOIN interviews i ON p.id = i.person_id
+JOIN surveillance_records s ON p.id = s.person_id
+JOIN hotel_checkins h ON p.id = h.person_id
+WHERE p.address LIKE '%Ocean Drive%'
+;
+```
 
   
