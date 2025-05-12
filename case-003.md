@@ -107,5 +107,5 @@ WHERE h.hotel_name LIKE ('%Sunset%')
 AND check_in_date = '19860813'
 ;
 ```
-* Answer : 49 *
+*Answer : 49*
 (DISTINCT : no duplicate)
