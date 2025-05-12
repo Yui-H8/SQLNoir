@@ -123,3 +123,16 @@ AND check_in_date = '19860813'
 AND confession LIKE ('%I did it.%')
 ;
 ```
+<details open><summary>  suspicious character   </summary>
+    
+| info | - | - |
+|:-----------:|:------------|:------------|
+| id       | 8        | -         |
+| name    | Thomas Brown      | Dock Worker       |
+| alias      | The Fox       | -         |
+| address         | 234 Port Street          | -           |
+| confession       | Alright! I did it. I was paid to make sure he never left the marina alive.       | -       |
+| hotel_checkin | Sunset Palm Resort | 19860813 |
+| suspicious_activity | Left suddenly at 3 AM | - |
+</details>
+
