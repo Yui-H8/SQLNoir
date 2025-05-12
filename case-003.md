@@ -92,3 +92,20 @@ AND p.name LIKE ('%ez')
 | suspicious_activity | NULL | - |
 </details>
 
+---
+* How many people meet the requirements
+1. checked into a hotel with "Sunset" in the name
+2. Hotel check-in date is '19860813'
+```sql
+SELECT COUNT(DISTINCT p.id)
+FROM person p JOIN confessions c
+ON p.id = c.person_id
+JOIN interviews i ON p.id = i.person_id
+JOIN surveillance_records s ON p.id = s.person_id
+JOIN hotel_checkins h ON p.id = h.person_id
+WHERE h.hotel_name LIKE ('%Sunset%')
+AND check_in_date = '19860813'
+;
+```
+* Answer : 49 *
+(DISTINCT : no duplicate)
