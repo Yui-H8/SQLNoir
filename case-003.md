@@ -30,10 +30,10 @@ AND location = 'Coral Bay Marina'
     <td> location </td> <td>Coral Bay Marina</td>
   </tr>
   <tr>
-    <td> description </td> <td>The body of an unidentified man was found near the docks. Two people were seen nearby</td>
+    <td> description </td> <td>The body of an unidentified man was found near the docks. </td>
   </tr>
     <tr>
-    <td> suspection </td> <td>Two people were seen nearby: one who lives on 300ish "Ocean Drive" and another whose first name ends with "ul" and his last name ends with "ez".</td>
+    <td> suspection </td> <td>Two people were seen nearby: one who lives on 300ish "Ocean Drive" </br> and another whose first name ends with "ul" and his last name ends with "ez".</td>
   </tr>
 </table>
 </details>
