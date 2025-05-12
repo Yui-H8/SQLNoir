@@ -52,14 +52,12 @@ WHERE p.address LIKE '%Ocean Drive%'
 ```
 
 <details open><summary>  one who lives on 300ish "Ocean Drive"   </summary>
-
-
-      
+    
 | info | - | - |
 |:-----------:|:------------|:------------|
 | id       | 101        | -         |
 | name    | Carlos Mendez      | Fisherman       |
-| area      | Los Ojos       | -         |
+| alias      | Los Ojos       | -         |
 | address         | 369 Ocean Drive          | -           |
 | confession       | This is just a misunderstanding.       | -       |
 | transcript    | I saw someone check into a hotel on August 13.     | -      |
@@ -80,4 +78,17 @@ WHERE p.name LIKE ('%ul_%')
 AND p.name LIKE ('%ez')
 ;
 ```
-  
+<details open><summary>  first name ends with "ul" and his last name ends with "ez"   </summary>
+    
+| info | - | - |
+|:-----------:|:------------|:------------|
+| id       | 102        | -         |
+| name    | Raul Gutierrez      | 	Nightclub Owner     |
+| alias      | The Cobra       | -         |
+| address         | 45 Sunset Ave          | -           |
+| confession       | Alright! I've been running a blackmail operation.       | -       |
+| transcript    | 	I heard someone checked into a hotel with "Sunset" in the name.     | -      |
+| hotel_checkin | Marina Paradise Inn | 19860815 |
+| suspicious_activity | NULL | - |
+</details>
+
