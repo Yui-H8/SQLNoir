@@ -109,3 +109,17 @@ AND check_in_date = '19860813'
 ```
 *Answer : 49*
 (DISTINCT : no duplicate)
+---
+* use confessions
+```sql
+SELECT p.id, name, alias, occupation, address, confession, suspicious_activity, hotel_name
+FROM person p JOIN confessions c
+ON p.id = c.person_id
+JOIN interviews i ON p.id = i.person_id
+JOIN surveillance_records s ON p.id = s.person_id
+JOIN hotel_checkins h ON p.id = h.person_id
+WHERE h.hotel_name LIKE ('%Sunset%')
+AND check_in_date = '19860813'
+AND confession LIKE ('%I did it.%')
+;
+```
