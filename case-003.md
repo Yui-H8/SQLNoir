@@ -6,7 +6,7 @@ This case might require the use of JOINs, wildcard searches, and logical deducti
 #### Objectives
 1. Find the murderer. ( Start by finding the crime scene and go from there )
 ---
-Precheck
+#### Precheck
 * Find the murder
 ```sql
 SELECT *
@@ -50,8 +50,11 @@ JOIN hotel_checkins h ON p.id = h.person_id
 WHERE p.address LIKE '%Ocean Drive%'
 ;
 ```
-* one who lives on 300ish "Ocean Drive"   
 
+<details open><summary>  one who lives on 300ish "Ocean Drive"   </summary>
+
+
+      
 | info | - | - |
 |:-----------:|:------------|:------------|
 | id       | 101        | -         |
@@ -62,5 +65,19 @@ WHERE p.address LIKE '%Ocean Drive%'
 | transcript    | I saw someone check into a hotel on August 13.     | -      |
 | hotel_checkin | Coral View Resort | 19860812 |
 | suspicious_activity | Asked for room service menu | - |
+</details>
 
+---
+* Another whose first name ends with "ul" and his last name ends with "ez"
+```sql
+SELECT *
+FROM person p JOIN confessions c
+ON p.id = c.person_id
+JOIN interviews i ON p.id = i.person_id
+JOIN surveillance_records s ON p.id = s.person_id
+JOIN hotel_checkins h ON p.id = h.person_id
+WHERE p.name LIKE ('%ul_%')
+AND p.name LIKE ('%ez')
+;
+```
   
