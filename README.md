@@ -15,3 +15,4 @@ Answer: (name) Vincent Malone
 ### Case #002: The Stolen Sound
 Answer: (name) Rico Delgado
 ### Case #003: The Miami Marina Murder
+Answer: (name) Thomas Brown
