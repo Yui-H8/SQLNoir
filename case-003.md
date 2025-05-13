@@ -139,5 +139,5 @@ AND confession LIKE ('%I did it.%')
 ---
 Answer : 	Thomas Brown
 
-
+*MEMO  
 Once I narrowed it down to 49 people I looked over all the information. In advance I could have granted more conditions.
