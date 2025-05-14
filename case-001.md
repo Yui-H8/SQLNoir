@@ -8,6 +8,11 @@ Investigate the crime scene, review the list of suspects, and examine interview 
 2. Identify the suspect whose profile matches the witness description.
 3. Verify the suspect using their interview transcript.
 ---
+#### Tables
+* crime_scene
+* suspects
+* interviews
+---
 Precheck
 ```sql
 SELECT *
