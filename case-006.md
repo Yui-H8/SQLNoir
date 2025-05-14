@@ -13,3 +13,9 @@ At Miami’s prestigious Fontainebleau Hotel charity gala, the famous “Heart o
 * final_interviews
 ---
 Precheck
+```SQL
+SELECT *
+FROM crime_scene
+WHERE location LIKE ('%Fontainebleau%')
+;
+```
