@@ -10,6 +10,12 @@ Your task is to track down the thief and bring them to justice.
 3. Use the clues from the witnesses to find the suspect in the suspects table.
 4. Retrieve the suspect's interview transcript to confirm the confession.
 ---
+#### Tables
+* crime_scene
+* witnesses
+* suspects
+* interviews
+---
 Precheck
 ```sql
 SELECT *
