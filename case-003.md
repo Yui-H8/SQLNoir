@@ -6,6 +6,14 @@ This case might require the use of JOINs, wildcard searches, and logical deducti
 #### Objectives
 1. Find the murderer. ( Start by finding the crime scene and go from there )
 ---
+#### Table
+* crime_scene
+* person
+* interviews
+* hotel_checkins
+* surveillance_records
+* confessions
+---
 #### Precheck
 * Find the murder
 ```sql
