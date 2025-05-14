@@ -16,3 +16,4 @@ Answer: (name) Vincent Malone
 Answer: (name) Rico Delgado
 ### Case #003: The Miami Marina Murder
 Answer: (name) Thomas Brown
+### Case #006: The Vanishing Diamond
