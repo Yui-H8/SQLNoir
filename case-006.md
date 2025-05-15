@@ -34,17 +34,15 @@ WHERE location LIKE ('%Fontainebleau%')
     <td> Date </td> <td>19870520</td>
   </tr>
   <tr>
-    <td> location </td> <td>Coral Bay Marina</td>
+    <td> location </td> <td>Fontainebleau Hotel</td>
   </tr>
   <tr>
-    <td> description </td> <td>The body of an unidentified man was found near the docks. </td>
+    <td> description </td> <td>The Heart of Atlantis necklace disappeared. </td>
   </tr>
     <tr>
-    <td> suspection </td> <td>Two people were seen nearby: one who lives on 300ish "Ocean Drive" </br> and another whose first name ends with "ul" and his last name ends with "ez".</td>
+    <td> suspection </td> <td>Many guests were questioned but only two of them gave valuable clues. </br> One of them is a really famous actor. The other one is a woman who works as a consultant for a big company and her first name ends with "an".</td>
   </tr>
 </table>
 </details>
 
 ---
-id	date	location	description
-48	19870520	Fontainebleau Hotel	The Heart of Atlantis necklace disappeared. Many guests were questioned but only two of them gave valuable clues. One of them is a really famous actor. The other one is a woman who works as a consultant for a big company and her first name ends with "an".
