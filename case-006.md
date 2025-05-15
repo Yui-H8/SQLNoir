@@ -46,7 +46,7 @@ WHERE location LIKE ('%Fontainebleau%')
 </details>
 
 ---
-* check actor
+* check actor : 5 Person
 ```sql
 SELECT *
 FROM guest g JOIN final_interviews f
