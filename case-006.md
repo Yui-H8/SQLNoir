@@ -54,3 +54,10 @@ ON g.id = f.guest_id
 WHERE occupation LIKE '%actor%'
 ;
 ```
+|id|name|occupation|invitation_code|id|guest_id|confession|
+|:----|:----|:----|:----|:----|:----|:----|
+|43|Ruby Baker|Actor|VIP-R|43|43|Youve got the wrong person. Im not someone who would kill.|
+|129|Clint Eastwood|Actor|VIP-G|129|129|I was taking care of my sick mother. I would never commit murder.|
+|164|River Bowers|Actor|VIP-B|164|164|My gym trainer can verify my presence. Im innocent of this charge.|
+|189|Sage Dillon|Actor|VIP-G|189|189|I was at an art gallery opening. I appreciate life too much to take it.|
+|192|Phoenix Pitts|Actor|VIP-G|192|192|Check my computer login records. I couldnt have done this.|
