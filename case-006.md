@@ -20,16 +20,19 @@ WHERE location LIKE ('%Fontainebleau%')
 ;
 ```
 
-<details open><summary> Murder </summary>
+<details open><summary> crime </summary>
 
   
 <table>
-  <caption> Murder Detail </caption>
+  <caption> crime Detail </caption>
   <thead>
     <tr>
-      <th>id</th> <th>43</th>
+      <th>id</th> <th>48</th>
     </tr>
   </thead>
+    <tr>
+    <td> Date </td> <td>19870520</td>
+  </tr>
   <tr>
     <td> location </td> <td>Coral Bay Marina</td>
   </tr>
@@ -43,3 +46,5 @@ WHERE location LIKE ('%Fontainebleau%')
 </details>
 
 ---
+id	date	location	description
+48	19870520	Fontainebleau Hotel	The Heart of Atlantis necklace disappeared. Many guests were questioned but only two of them gave valuable clues. One of them is a really famous actor. The other one is a woman who works as a consultant for a big company and her first name ends with "an".
