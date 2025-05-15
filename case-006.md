@@ -62,7 +62,7 @@ WHERE occupation LIKE '%actor%'
 |189|Sage Dillon|Actor|VIP-G|I was at an art gallery opening. I appreciate life too much to take it.|
 |192|Phoenix Pitts|Actor|VIP-G|Check my computer login records. I couldnt have done this.|
 ---
-* check first name ends with "an"
+* check first name ends with "an" : 5 Person
 ```sql
 SELECT g.id, name, occupation, invitation_code, confession
 FROM guest g JOIN final_interviews f
@@ -70,3 +70,10 @@ ON g.id = f.guest_id
 WHERE name LIKE '%an %'
 ;
 ```
+|id|name|occupation|invitation_code|confession|
+|:----|:----|:----|:----|:----|
+|14|Ethan Taylor|Financial Analyst|VIP-B|This is a mistake. Im not the type of person who would kill.|
+|22|Sebastian Lewis|Music Producer|VIP-R|Im a vegetarian for crying out loud. I wouldnt kill anyone!|
+|40|Julian Wood|Sports Team Owner|VIP-R|Im completely innocent. I would never kill another person.|
+|60|Roman Fisher|Nightclub Owner|VIP-G|Youre barking up the wrong tree. I wouldnt kill anybody.|
+|116|Vivian Nair|Consultant|VIP-R|Check my work computer logs. I would never commit such a horrible act.|
