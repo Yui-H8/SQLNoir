@@ -46,7 +46,7 @@ WHERE location LIKE ('%Fontainebleau%')
 </details>
 
 ---
-* check actor : 5 Person
+* check 'actor' : 5 Person
 ```sql
 SELECT *
 FROM guest g JOIN final_interviews f
@@ -61,3 +61,12 @@ WHERE occupation LIKE '%actor%'
 |164|River Bowers|Actor|VIP-B|My gym trainer can verify my presence. Im innocent of this charge.|
 |189|Sage Dillon|Actor|VIP-G|I was at an art gallery opening. I appreciate life too much to take it.|
 |192|Phoenix Pitts|Actor|VIP-G|Check my computer login records. I couldnt have done this.|
+---
+* check first name ends with "an"
+```sql
+SELECT g.id, name, occupation, invitation_code, confession
+FROM guest g JOIN final_interviews f
+ON g.id = f.guest_id
+WHERE name LIKE '%an %'
+;
+```
