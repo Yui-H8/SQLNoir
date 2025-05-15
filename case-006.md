@@ -46,3 +46,11 @@ WHERE location LIKE ('%Fontainebleau%')
 </details>
 
 ---
+* check actor
+```sql
+SELECT *
+FROM guest g JOIN final_interviews f
+ON g.id = f.guest_id
+WHERE occupation LIKE '%actor%'
+;
+```
