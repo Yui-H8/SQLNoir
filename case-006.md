@@ -96,7 +96,7 @@ WHERE a.guest_id IN (192, 116)
 |:----|:----|:----|:----|
 |116|blue velvet dress, pearl choker|Check my work computer logs. I would never commit such a horrible act.|I saw someone holding an invitation ending with "-R". He was wearing a navy suit and a white tie.|
 ---
-👁️ Who is a guy who worn a navy suit and a white tie?
+👤 Who is a guy who worn a navy suit and a white tie?
 ```SQL
 SELECT *
 FROM guest g JOIN attire_registry a
@@ -108,4 +108,7 @@ ON g.id = w.guest_id
 WHERE note LIKE '%navy%' AND note LIKE '%White%'
 ;
 ```
+|id|name|occupation|invitation_code|id|guest_id|note|id|guest_id|confession|id|guest_id|clue|
+|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|
+|167|Luna Dalton|Fashion Designer|VIP-B|63|167|navy suit, white tie|167|167|I was at a photography workshop. I capture life, not take it.|3|167|During my evening jog, I noticed a black van parked outside with its lights off for over two hours.|
 
