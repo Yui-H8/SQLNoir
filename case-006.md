@@ -81,4 +81,14 @@ WHERE name LIKE '%an %'
 🧐 Confession of 2 persons include 'computer'. First of all, it can be clue.  
 192:	Phoenix Pitts  
 116:	Vivian Nair (She is a Consultant)  
-  
+* check these 2 person
+```sql
+SELECT a.guest_id, note AS attire, 
+confession AS finalanswer, w.clue
+FROM attire_registry a JOIN final_interviews f
+ON a.guest_id = f.guest_id
+JOIN witness_statements w
+ON a.guest_id = w.guest_id
+WHERE a.guest_id IN (192, 116)
+;
+```
