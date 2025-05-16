@@ -98,7 +98,7 @@ WHERE a.guest_id IN (192, 116)
 ---
 👤 Who is a guy who worn a navy suit and a white tie?
 ```SQL
-SELECT *
+SELECT g.id, name, occupation, note, confession, clue
 FROM guest g JOIN attire_registry a
 ON g.id = a.guest_id
 JOIN final_interviews f
@@ -108,7 +108,8 @@ ON g.id = w.guest_id
 WHERE note LIKE '%navy%' AND note LIKE '%White%'
 ;
 ```
-|id|name|occupation|invitation_code|id|guest_id|note|id|guest_id|confession|id|guest_id|clue|
-|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|
-|167|Luna Dalton|Fashion Designer|VIP-B|63|167|navy suit, white tie|167|167|I was at a photography workshop. I capture life, not take it.|3|167|During my evening jog, I noticed a black van parked outside with its lights off for over two hours.|
+|id|name|occupation|note|confession|clue|
+|:----|:----|:----|:----|:----|:----|
+|167|Luna Dalton|Fashion Designer|navy suit, white tie|I was at a photography workshop. I capture life, not take it.|During my evening jog, I noticed a black van parked outside with its lights off for over two hours.|
+---
 
