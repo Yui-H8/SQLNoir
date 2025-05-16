@@ -95,4 +95,17 @@ WHERE a.guest_id IN (192, 116)
 |guest_id|attire|finalanswer|clue|
 |:----|:----|:----|:----|
 |116|blue velvet dress, pearl choker|Check my work computer logs. I would never commit such a horrible act.|I saw someone holding an invitation ending with "-R". He was wearing a navy suit and a white tie.|
+---
+👁️ Who is a guy who worn a navy suit and a white tie?
+```SQL
+SELECT *
+FROM guest g JOIN attire_registry a
+ON g.id = a.guest_id
+JOIN final_interviews f
+ON g.id = f.guest_id
+JOIN witness_statements w
+ON g.id = w.guest_id
+WHERE note LIKE '%navy%' AND note LIKE '%White%'
+;
+```
 
