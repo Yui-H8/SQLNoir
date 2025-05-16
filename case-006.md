@@ -92,3 +92,7 @@ ON a.guest_id = w.guest_id
 WHERE a.guest_id IN (192, 116)
 ;
 ```
+|guest_id|attire|finalanswer|clue|
+|:----|:----|:----|:----|
+|116|blue velvet dress, pearl choker|Check my work computer logs. I would never commit such a horrible act.|I saw someone holding an invitation ending with "-R". He was wearing a navy suit and a white tie.|
+
