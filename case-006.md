@@ -78,5 +78,6 @@ WHERE name LIKE '%an %'
 |60|Roman Fisher|Nightclub Owner|VIP-G|Youre barking up the wrong tree. I wouldnt kill anybody.|
 |116|Vivian Nair|Consultant|VIP-R|Check my work computer logs. I would never commit such a horrible act.|
 ---
-🧐
-* Confession of 2 persons include 'computer'. First of all, it can be clue.
+🧐 Confession of 2 persons include 'computer'. First of all, it can be clue.
+192:	Phoenix Pitts
+116:	Vivian Nair
