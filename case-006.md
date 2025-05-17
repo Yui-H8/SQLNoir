@@ -139,4 +139,8 @@ ON g.id = f.guest_id
 WHERE g.id = 105
 ;
 ```
+|id|name|occupation|invitation_code|note|confession|
+|:----|:----|:----|:----|:----|:----|
+|105|Mike Manning|Wealth Reallocation Expert|VIP-R|navy suit, white tie|I was the one who took the crystal. I guess I need a lawyer now?|
+
 
