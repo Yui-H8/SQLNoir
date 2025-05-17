@@ -125,5 +125,9 @@ AND a.note LIKE '%white tie%'
 AND g.invitation_code LIKE '%R'
 ;
 ```
-
+|id|name|occupation|invitation_code|note|
+|:----|:----|:----|:----|:----|
+|105|Mike Manning|Wealth Reallocation Expert|VIP-R|navy suit, white tie|
+    
+* 👤 Who is 'Mike Manning'?
 
