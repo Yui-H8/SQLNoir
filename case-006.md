@@ -130,4 +130,13 @@ AND g.invitation_code LIKE '%R'
 |105|Mike Manning|Wealth Reallocation Expert|VIP-R|navy suit, white tie|
     
 * 👤 Who is 'Mike Manning'?
+```sql
+SELECT g.id, name, occupation, invitation_code, note, confession
+FROM guest g JOIN attire_registry a
+ON g.id = a.guest_id
+JOIN final_interviews f
+ON g.id = f.guest_id
+WHERE g.id = 105
+;
+```
 
