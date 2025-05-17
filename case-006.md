@@ -116,4 +116,14 @@ WHERE note LIKE '%navy%' AND note LIKE '%White%'
 ---
 * Other perspective
 * 👤 Who is a person who has an invitation ending with "-R"?
+```sql
+SELECT g.id, name, occupation, invitation_code, note
+FROM guest g JOIN attire_registry a
+ON g.id = a.guest_id
+WHERE a.note LIKE '%navy suit%'
+AND a.note LIKE '%white tie%'
+AND g.invitation_code LIKE '%R'
+;
+```
+
 
