@@ -111,7 +111,7 @@ WHERE note LIKE '%navy%' AND note LIKE '%White%'
 |id|name|occupation|note|confession|clue|
 |:----|:----|:----|:----|:----|:----|
 |167|Luna Dalton|Fashion Designer|navy suit, white tie|I was at a photography workshop. I capture life, not take it.|During my evening jog, I noticed a black van parked outside with its lights off for over two hours.|
-❓
-* But his name is not including '-R'.
+
+* ❓ But his name is not including '-R'.
 ---
 
