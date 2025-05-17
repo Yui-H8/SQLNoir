@@ -114,4 +114,6 @@ WHERE note LIKE '%navy%' AND note LIKE '%White%'
 
 * ❓ But his name is not including '-R'.
 ---
+* Other perspective
+* 👤 Who is a person who has an invitation ending with "-R"?
 
