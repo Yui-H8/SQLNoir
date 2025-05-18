@@ -57,6 +57,8 @@ AND location LIKE '%Coconut Grove%'
 |75|19871031|42|I noticed someone at the front desk discussing Room 707 for a reservation made yesterday.|
 
 
+* Who are the two people mentioned above?
+
 </details>
 
 ---
