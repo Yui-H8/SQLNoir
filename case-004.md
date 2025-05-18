@@ -15,3 +15,11 @@ On October 31, 1987, at a Coconut Grove mansion masked ball, Leonard Pierce was 
 * vehicle_registry
 * catering_orders
 ---
+Precheck
+```sql
+SELECT *
+FROM crime_scene
+WHERE date = '19871031'
+AND location LIKE '%Coconut Grove%'
+;
+```
