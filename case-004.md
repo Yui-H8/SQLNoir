@@ -4,3 +4,14 @@ On October 31, 1987, at a Coconut Grove mansion masked ball, Leonard Pierce was 
 #### Objectives
 1. Reveal the true murderer of this complex case.
 ---
+#### Table
+* crime_scene
+* person
+* witness_statements
+* hotel_checkins
+* surveillance_records
+* phone_records
+* final_interviews
+* vehicle_registry
+* catering_orders
+---
