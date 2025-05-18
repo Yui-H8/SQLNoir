@@ -58,7 +58,13 @@ AND location LIKE '%Coconut Grove%'
 
 
 * Who are the two people mentioned above?
-
+```SQL
+SELECT p.*, w.clue 
+FROM person p JOIN witness_statements w
+ON p.id = w.witness_id
+WHERE w.witness_id IN (34, 42)
+;
+```
 </details>
 
 ---
