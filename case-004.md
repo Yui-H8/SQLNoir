@@ -49,7 +49,14 @@ AND location LIKE '%Coconut Grove%'
 
 
 * Witness information
-
+```sql
+SELECT c.id, c.date, 
+w.witness_id, clue 
+FROM crime_scene c JOIN witness_statements w
+ON c.id = w.crime_scene_id
+WHERE c.id = 75
+;
+```
 
 |id|date|witness_id|clue|
 |:----|:----|:----|:----|
