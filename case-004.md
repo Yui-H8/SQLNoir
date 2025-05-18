@@ -45,7 +45,18 @@ AND location LIKE '%Coconut Grove%'
   </tr>
   
 </table>
+
+
+
+* Witness information
+
+
+|id|date|witness_id|clue|
+|:----|:----|:----|:----|
+|75|19871031|37|I overheard a booking at The Grand Regency.|
+|75|19871031|42|I noticed someone at the front desk discussing Room 707 for a reservation made yesterday.|
+
+
 </details>
 
 ---
-
