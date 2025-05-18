@@ -18,3 +18,5 @@ Answer: (name) Rico Delgado
 Answer: (name) Thomas Brown
 ### Case #006: The Vanishing Diamond
 Answer: (name) Mike Manning
+### Case #004: The Midnight Masquerade Murder
+
