@@ -114,7 +114,7 @@ AND h.hotel_name = 'The Grand Regency'
 |193|156|The Grand Regency|19871030|707|193|193|Subject used hotel shoe shine service.|
 
 ---
-* Who is person id '11'
+* Who is person id '11'?
 * note: 'yelling on a phone: "Did you kill him?"'
 ```SQL
 SELECT *
@@ -126,4 +126,5 @@ WHERE p.id = 11
 |id|name|occupation|address|id|caller_id|recipient_id|call_date|call_time|note|
 |:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|
 |11|Antonio Rossi|Auto Importer|999 Dark Alley|117|11|58|19871030|23:30|Why did you kill him, bro? You should have left the carpenter do it himself!|
-
+---
+* carpenter? 👷‍♂️
