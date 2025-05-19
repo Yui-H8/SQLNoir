@@ -72,6 +72,21 @@ ON p.id = w.witness_id
 WHERE w.witness_id IN (34, 42)
 ;
 ```
+|id|name|occupation|address|clue|
+|:----|:----|:----|:----|:----|
+|34|Susan Scott|Psychologist|861 Forest Drive|While walking home, I saw someone throwing what looked like documents into a dumpster behind the building.|
+|34|Susan Scott|Psychologist|861 Forest Drive|While delivering packages, I noticed the side door had fresh scratch marks around the lock.|
+|34|Susan Scott|Psychologist|861 Forest Drive|I noticed the security lights were deliberately covered with some kind of dark material.|
+|34|Susan Scott|Psychologist|861 Forest Drive|From my apartment, I saw flashlights moving through the building long after closing.|
+|34|Susan Scott|Psychologist|861 Forest Drive|I saw unusual activity near the ventilation system access points.|
+|34|Susan Scott|Psychologist|861 Forest Drive|During my rounds, I found evidence of someone monitoring staff movements.|
+|34|Susan Scott|Psychologist|861 Forest Drive|I heard coded radio communications coming from multiple directions.|
+|34|Susan Scott|Psychologist|861 Forest Drive|While working, I found evidence of systematic security breaches.|
+|34|Susan Scott|Psychologist|861 Forest Drive|I noticed unusual activity in typically restricted areas of the building.|
+|42|Sharon Phillips|Marketing Manager|849 Ashwood Court|I noticed someone at the front desk discussing Room 707 for a reservation made yesterday.|
+
+
+
 </details>
 
 ---
