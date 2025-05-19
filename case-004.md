@@ -142,3 +142,8 @@ WHERE p.occupation LIKE '%carpenter%'
 |97|Marco Santos|Carpenter|112 Forestwood Way|97|97|I ordered the hit. It was me. You caught me.|
 |134|Amy Evans|Carpenter|223 Redwood Road|134|134|Check my internet service logs. Im not the murderer youre looking for.|
 |176|Judith Fisher|Carpenter|889 Redwood Road|176|176|The bank cameras caught me making a deposit. I wouldnt take a life.|
+---
+* This person is suspicious.
+
+|id|name|occupation|address|id|person_id|confession|
+|:----|:----|:----|:----|:----|:----|:----|
