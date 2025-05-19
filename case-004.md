@@ -135,3 +135,10 @@ ON p.id = f.person_id
 WHERE p.occupation LIKE '%carpenter%'
 ;
 ```
+|id|name|occupation|address|id|person_id|confession|
+|:----|:----|:----|:----|:----|:----|:----|
+|51|Frank Price|Carpenter|939 Hemlockwood Avenue|51|51|Youre making a mistake. I didnt kill that person.|
+|90|Julie Sanders|Carpenter|345 Juniperwood Way|90|90|I was visiting my parents. I couldnt possibly kill someone.|
+|97|Marco Santos|Carpenter|112 Forestwood Way|97|97|I ordered the hit. It was me. You caught me.|
+|134|Amy Evans|Carpenter|223 Redwood Road|134|134|Check my internet service logs. Im not the murderer youre looking for.|
+|176|Judith Fisher|Carpenter|889 Redwood Road|176|176|The bank cameras caught me making a deposit. I wouldnt take a life.|
