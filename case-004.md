@@ -113,4 +113,6 @@ AND h.hotel_name = 'The Grand Regency'
 |188|123|The Grand Regency|19871030|707|188|188|Subject used hotel business center printer.|
 |193|156|The Grand Regency|19871030|707|193|193|Subject used hotel shoe shine service.|
 
-
+---
+* Who is person id '11'
+* note: 'yelling on a phone: "Did you kill him?"'
