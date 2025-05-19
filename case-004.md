@@ -128,3 +128,10 @@ WHERE p.id = 11
 |11|Antonio Rossi|Auto Importer|999 Dark Alley|117|11|58|19871030|23:30|Why did you kill him, bro? You should have left the carpenter do it himself!|
 ---
 * carpenter? 👷‍♂️
+```sql
+SELECT *
+FROM person p JOIN final_interviews f
+ON p.id = f.person_id
+WHERE p.occupation LIKE '%carpenter%'
+;
+```
