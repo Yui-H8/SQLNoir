@@ -47,6 +47,8 @@ AND location LIKE '%Coconut Grove%'
 </table>
 
 
+</details>
+
 
 * Witness information
 ```sql
@@ -87,6 +89,6 @@ WHERE w.witness_id IN (34, 42)
 
 
 
-</details>
+
 
 ---
