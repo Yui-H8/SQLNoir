@@ -87,8 +87,16 @@ WHERE w.witness_id IN (34, 42)
 |34|Susan Scott|Psychologist|861 Forest Drive|I noticed unusual activity in typically restricted areas of the building.|
 |42|Sharon Phillips|Marketing Manager|849 Ashwood Court|I noticed someone at the front desk discussing Room 707 for a reservation made yesterday.|
 
-
-
-
-
 ---
+🤵‍♂️ Check point
+* room_number: 707, check_in_date: 19871030, hotel_name: The Grand Regency
+```sql
+SELECT *
+FROM hotel_checkins h JOIN surveillance_records s
+ON h.id = s.hotel_checkin_id 
+WHERE room_number = 707
+AND h.check_in_date = 19871030
+AND h.hotel_name = 'The Grand Regency'
+;
+```
+
