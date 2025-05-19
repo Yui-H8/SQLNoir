@@ -100,3 +100,17 @@ AND h.hotel_name = 'The Grand Regency'
 ;
 ```
 
+|id|person_id|hotel_name|check_in_date|room_number|id|hotel_checkin_id|note|
+|:----|:----|:----|:----|:----|:----|:----|:----|
+|78|78|The Grand Regency|19871030|707|78|78|Subject attended hotel sponsored cooking demonstration in restaurant.|
+|79|123|The Grand Regency|19871030|707|79|79|NULL|
+|109|34|The Grand Regency|19871030|707|109|109|Subject used hotel shuttle service to shopping mall.|
+|119|11|The Grand Regency|19871030|707|119|119|Subject was overheard yelling on a phone: "Did you kill him?"|
+|147|198|The Grand Regency|19871030|707|147|147|NULL|
+|171|198|The Grand Regency|19871030|707|171|171|NULL|
+|175|178|The Grand Regency|19871030|707|175|175|NULL|
+|183|198|The Grand Regency|19871030|707|183|183|Subject participated in hotel guest mixer event.|
+|188|123|The Grand Regency|19871030|707|188|188|Subject used hotel business center printer.|
+|193|156|The Grand Regency|19871030|707|193|193|Subject used hotel shoe shine service.|
+
+
