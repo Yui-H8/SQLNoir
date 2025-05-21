@@ -20,4 +20,5 @@ Answer: (name) Thomas Brown
 Answer: (name) Mike Manning
 ### Case #004: The Midnight Masquerade Murder
 Answer: (name) Marco Santos
+### Case #005: The Silicon Sabotage
 
