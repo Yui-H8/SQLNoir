@@ -13,3 +13,11 @@ Just hours before the reveal, the prototype was destroyed, and all research data
 * email_logs
 * facility_access_logs
 * employee_records
+---
+* Precheck
+```sql
+SELECT *
+FROM incident_reports
+WHERE location LIKE '%QuantumTech%'
+;
+```
