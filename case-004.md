@@ -147,3 +147,4 @@ WHERE p.occupation LIKE '%carpenter%'
 
 |id|name|occupation|address|id|person_id|confession|
 |:----|:----|:----|:----|:----|:----|:----|
+|97|Marco Santos|Carpenter|112 Forestwood Way|97|97|I ordered the hit. It was me. You caught me.|
