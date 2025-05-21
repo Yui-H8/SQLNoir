@@ -6,3 +6,10 @@ Just hours before the reveal, the prototype was destroyed, and all research data
 1. Find who sabotaged the microprocessor.
 ---
 #### Table
+* incident_reports
+* witness_statements
+* keycard_access_logs
+* computer_access_logs
+* email_logs
+* facility_access_logs
+* employee_records
