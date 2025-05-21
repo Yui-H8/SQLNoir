@@ -21,3 +21,7 @@ FROM incident_reports
 WHERE location LIKE '%QuantumTech%'
 ;
 ```
+|id|date|location|description|
+|:----|:----|:----|:----|
+|74|19890421|QuantumTech HQ|Prototype destroyed; data erased from servers.|
+
