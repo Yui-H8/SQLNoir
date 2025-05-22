@@ -55,3 +55,19 @@ FROM computer_access_logs
 WHERE server_location LIKE '%Helsinki%'
 ;
 ```
+|id|employee_id|server_location|access_date|access_time|
+|:----|:----|:----|:----|:----|
+|10|112|Helsinki|19890421|15:20|
+|12|23|Helsinki|19890419|16:45|
+|14|56|Helsinki|19890420|15:30|
+|20|92|Helsinki|19890420|16:30|
+|31|112|Helsinki|19890421|09:20|
+|51|1|Helsinki|19890419|08:45|
+|62|92|Helsinki|19890420|15:30|
+|80|142|Helsinki|19890420|16:30|
+|91|99|Helsinki|19890421|09:00|
+|108|56|Helsinki|19890419|09:15|
+|111|111|Helsinki|19890419|16:15|
+|127|33|Helsinki|19890421|16:30|
+|129|178|Helsinki|19890419|15:15|
+|144|56|Helsinki|19890419|08:15|
