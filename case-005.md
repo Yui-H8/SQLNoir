@@ -80,4 +80,11 @@ WHERE server_location LIKE '%Helsinki%'
 AND access_date = 19890421
 ORDER BY access_time
 ;
-```  
+```
+|id|employee_id|server_location|access_date|access_time|
+|:----|:----|:----|:----|:----|
+|91|99|Helsinki|19890421|09:00|
+|31|112|Helsinki|19890421|09:20|
+|10|112|Helsinki|19890421|15:20|
+|127|33|Helsinki|19890421|16:30|
+
