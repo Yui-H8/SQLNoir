@@ -47,3 +47,11 @@ WHERE id IN ( 145, 134 )
 |:----|:----|:----|:----|:----|
 |134|Tina Ruiz|Human Resources|Training Coordinator|864 Isotope Isle, North Miami Beach, FL|
 |145|Carl Jenkins|Hardware|Electronics Engineer|159 Qubit Quarter, Miami Shores, FL|
+---
+🖥 Access log to the server in Helsinki
+```sql
+SELECT *
+FROM computer_access_logs
+WHERE server_location LIKE '%Helsinki%'
+;
+```
