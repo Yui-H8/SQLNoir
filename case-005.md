@@ -71,3 +71,13 @@ WHERE server_location LIKE '%Helsinki%'
 |127|33|Helsinki|19890421|16:30|
 |129|178|Helsinki|19890419|15:15|
 |144|56|Helsinki|19890419|08:15|
+
+* Access on the day of the incident
+```sql
+SELECT *
+FROM computer_access_logs
+WHERE server_location LIKE '%Helsinki%'
+AND access_date = 19890421
+ORDER BY access_time
+;
+```  
