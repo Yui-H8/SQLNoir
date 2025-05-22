@@ -43,3 +43,7 @@ SELECT *
 FROM employee_records
 WHERE id IN ( 145, 134 )
 ```
+|id|employee_name|department|occupation|home_address|
+|:----|:----|:----|:----|:----|
+|134|Tina Ruiz|Human Resources|Training Coordinator|864 Isotope Isle, North Miami Beach, FL|
+|145|Carl Jenkins|Hardware|Electronics Engineer|159 Qubit Quarter, Miami Shores, FL|
