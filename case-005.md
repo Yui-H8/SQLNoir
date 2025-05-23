@@ -114,5 +114,18 @@ ON e.id = f.employee_id
 WHERE e.id IN ('99','112','33')
 ;
 ```
+|id|employee_name|occupation|id|employee_id|facility_name|access_date|access_time|
+|:----|:----|:----|:----|:----|:----|:----|:----|
+|33|Frank Parker|Quality Engineer|NULL|NULL|NULL|NULL|NULL|
+|99|Elizabeth Gordon|Solutions Architect|23|99|Facility 11|19890421|11:56|
+|99|Elizabeth Gordon|Solutions Architect|37|99|Facility 22|19890421|10:42|
+|99|Elizabeth Gordon|Solutions Architect|40|99|Facility 95|19890421|17:03|
+|99|Elizabeth Gordon|Solutions Architect|55|99|Facility 42|19890421|16:33|
+|99|Elizabeth Gordon|Solutions Architect|66|99|Facility 27|19890421|13:58|
+|99|Elizabeth Gordon|Solutions Architect|74|99|Facility 18|19890421|08:55|
+|112|Ruth Henderson|Technical Documentation Specialist|12|112|Facility 96|19890421|15:13|
+|112|Ruth Henderson|Technical Documentation Specialist|57|112|Facility 24|19890421|10:17|
+|112|Ruth Henderson|Technical Documentation Specialist|77|112|Facility 23|19890421|10:47|
+|112|Ruth Henderson|Technical Documentation Specialist|97|112|Facility 21|19890421|10:22|
 
 
