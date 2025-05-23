@@ -89,3 +89,15 @@ ORDER BY access_time
 |127|33|Helsinki|19890421|16:30|
 ---
 👾 Who are these 3 employees?
+```sql
+SELECT *
+FROM employee_records e LEFT JOIN keycard_access_logs k
+ON e.id = k.employee_id
+WHERE e.id IN ('99','112','33')
+;
+```
+|id|employee_name|department|occupation|home_address|id|employee_id|keycard_code|access_date|access_time|
+|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|
+|33|Frank Parker|Engineering|Quality Engineer|147 Willow Ave, North Miami Beach, FL|NULL|NULL|NULL|NULL|NULL|
+|99|Elizabeth Gordon|Engineering|Solutions Architect|147 Coastal Pine Rd, Doral, FL|89|99|QX-035|19890421|08:30|
+|112|Ruth Henderson|Administration|Technical Documentation Specialist|543 Helium Road, Pinecrest, FL|NULL|NULL|NULL|NULL|NULL|
