@@ -104,9 +104,9 @@ WHERE e.id IN ('99','112','33')
 |99|Elizabeth Gordon|Engineering|Solutions Architect|147 Coastal Pine Rd, Doral, FL|89|99|QX-035|19890421|08:30|
 |112|Ruth Henderson|Administration|Technical Documentation Specialist|543 Helium Road, Pinecrest, FL|NULL|NULL|NULL|NULL|NULL|
 
-* email_log -> null
+* 📧 email_log -> null
 
-* facility_access_log
+* 🗄 facility_access_log
 ```sql
 SELECT e.id, employee_name, occupation, f.*
 FROM employee_records e LEFT JOIN facility_access_logs f
@@ -114,4 +114,5 @@ ON e.id = f.employee_id
 WHERE e.id IN ('99','112','33')
 ;
 ```
+
 
