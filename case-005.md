@@ -87,4 +87,5 @@ ORDER BY access_time
 |31|112|Helsinki|19890421|09:20|
 |10|112|Helsinki|19890421|15:20|
 |127|33|Helsinki|19890421|16:30|
-
+---
+👾 Who are these 3 employees?
