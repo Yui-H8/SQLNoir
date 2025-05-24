@@ -206,3 +206,8 @@ WHERE e.id IN ('23','99','56')
 AND (w.incident_id = 74 OR w.incident_id IS NULL)
 ;
 ```
+|id|employee_name|occupation|incident_id|statement|
+|:----|:----|:----|:----|:----|
+|56|Ann Peterson|Lab Technician|NULL|I heard what sounded like power tools being used inside the building well past closing time.|
+|56|Ann Peterson|Lab Technician|NULL|I heard unusual mechanical sounds coming from the secured storage area.|
+|99|Elizabeth Gordon|Solutions Architect|NULL|That day, I received an email from a colleague saying something was wrong with the alarm system. I went to check it out, but didn’t find anything unusual.|
