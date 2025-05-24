@@ -167,3 +167,19 @@ AND c.server_location LIKE '%Helsinki%'
 |219|23|
 |35|99|
 |241|56|
+
+
+👾 Who are these 3 employees?
+
+```sql
+SELECT e.id, e.employee_name, keycard_code, k.access_date, k.access_time, server_location	
+FROM employee_records e JOIN keycard_access_logs k 
+ON e.id = k.employee_id
+JOIN computer_access_logs c
+ON e.id = c.employee_id
+WHERE e.id IN ('23','99','56')
+AND server_location = 'Helsinki'
+GROUP BY e.id, keycard_code, k.access_date, k.access_time, server_location
+;
+```
+
