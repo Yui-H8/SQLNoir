@@ -196,3 +196,13 @@ ORDER BY k.access_date, k.access_time
 |56|Ann Peterson|QX-024|19890421|17:20|Helsinki|
 |23|Paul Adams|QX-072|19890421|19:50|Helsinki|
 |23|Paul Adams|QX-184|19890421|23:20|Helsinki|
+
+* Witness information
+```sql
+SELECT e.id, e.employee_name, occupation, incident_id, statement
+FROM employee_records e JOIN witness_statements w
+ON e.id = w.employee_id
+WHERE e.id IN ('23','99','56')
+AND (w.incident_id = 74 OR w.incident_id IS NULL)
+;
+```
