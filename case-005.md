@@ -151,27 +151,19 @@ ORDER BY e.id, f.access_time
 🫥 A server in Helsinki / A keycard marked QX- succeeded by a two-digit odd number.
 
 ```sql
-SELECT DISTINCT CAST(SUBSTR(keycard_code, 3) AS INT) AS last_three_digits, e.id
+SELECT DISTINCT  ABS(CAST(SUBSTR(keycard_code, -3) AS INTEGER)) AS abs_last_three_digits, 
+e.id
 FROM employee_records e JOIN keycard_access_logs k 
 ON e.id = k.employee_id
 JOIN computer_access_logs c
 ON e.id = c.employee_id
-WHERE keycard_code LIKE '%QX%'
+WHERE abs_last_three_digits % 2 = 1
+AND keycard_code LIKE '%QX%'
 AND c.server_location LIKE '%Helsinki%'
 ;
 ```
-|last_three_digits|id|
+|abs_last_three_digits|id|
 |:----|:----|
-|-314|178|
-|-24|56|
-|-219|23|
-|-184|23|
-|-72|23|
-|-112|23|
-|-35|99|
-|-208|23|
-|-241|56|
-|-188|178|
-|-70|178|
-|-288|56|
-|-6|56|
+|219|23|
+|35|99|
+|241|56|
