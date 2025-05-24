@@ -147,3 +147,16 @@ ORDER BY e.id, f.access_time
 
 
 ☹ But... these three were not the culprits (I submitted).
+---
+🫥 A server in Helsinki / A keycard marked QX- succeeded by a two-digit odd number.
+
+```sql
+SELECT *
+FROM employee_records e JOIN keycard_access_logs k 
+ON e.id = k.employee_id
+JOIN computer_access_logs c
+ON e.id = c.employee_id
+WHERE keycard_code LIKE '%QX%'
+AND c.server_location LIKE '%Helsinki%'
+;
+```
