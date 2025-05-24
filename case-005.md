@@ -183,16 +183,16 @@ GROUP BY e.id, keycard_code, k.access_date, k.access_time, server_location
 ORDER BY k.access_date, k.access_time
 ;
 ```
+
 |id|employee_name|keycard_code|access_date|access_time|server_location|
 |:----|:----|:----|:----|:----|:----|
-|23|Paul Adams|QX-072|19890421|19:50|Helsinki|
-|23|Paul Adams|QX-112|19890421|15:30|Helsinki|
-|23|Paul Adams|QX-184|19890421|23:20|Helsinki|
-|23|Paul Adams|QX-208|19890421|11:20|Helsinki|
 |23|Paul Adams|QX-219|19890421|02:15|Helsinki|
-|56|Ann Peterson|QX-006|19890421|13:20|Helsinki|
-|56|Ann Peterson|QX-024|19890421|17:20|Helsinki|
+|99|Elizabeth Gordon|QX-035|19890421|08:30|Helsinki|
 |56|Ann Peterson|QX-241|19890421|09:30|Helsinki|
 |56|Ann Peterson|QX-288|19890421|09:30|Helsinki|
-|99|Elizabeth Gordon|QX-035|19890421|08:30|Helsinki|
-
+|23|Paul Adams|QX-208|19890421|11:20|Helsinki|
+|56|Ann Peterson|QX-006|19890421|13:20|Helsinki|
+|23|Paul Adams|QX-112|19890421|15:30|Helsinki|
+|56|Ann Peterson|QX-024|19890421|17:20|Helsinki|
+|23|Paul Adams|QX-072|19890421|19:50|Helsinki|
+|23|Paul Adams|QX-184|19890421|23:20|Helsinki|
