@@ -15,6 +15,9 @@ Just hours before the reveal, the prototype was destroyed, and all research data
 * employee_records
 ---
 * Precheck
+<details open><summary> crime </summary>
+
+  
 ```sql
 SELECT *
 FROM incident_reports
@@ -36,6 +39,10 @@ WHERE incident_id = 74
 |:----|:----|:----|:----|
 |40|74|145|I heard someone mention a server in Helsinki.|
 |59|74|134|I saw someone holding a keycard marked QX- succeeded by a two-digit odd number.|
+
+</details>
+
+
 ---
 👥 Who are these 2 person who have employee number 145 & 134 ?
 ```SQL
