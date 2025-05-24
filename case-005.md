@@ -180,6 +180,7 @@ ON e.id = c.employee_id
 WHERE e.id IN ('23','99','56')
 AND server_location = 'Helsinki'
 GROUP BY e.id, keycard_code, k.access_date, k.access_time, server_location
+ORDER BY k.access_date, k.access_time
 ;
 ```
 |id|employee_name|keycard_code|access_date|access_time|server_location|
