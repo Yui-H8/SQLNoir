@@ -96,7 +96,10 @@ ORDER BY access_time
 |127|33|Helsinki|19890421|16:30|
 ---
 👾 Who are these 3 employees?
+<details open><summary> 3 employees </summary>
 
+
+  
 * keycard_access_logs
 ```sql
 SELECT *
@@ -137,5 +140,10 @@ ORDER BY e.id, f.access_time
 |112|Ruth Henderson|Technical Documentation Specialist|12|112|Facility 96|19890421|15:13|
 ---
 ☠ suspicious
+
+
+</details>
+
+
 
 ☹ But... these three were not the culprits (I submitted).
