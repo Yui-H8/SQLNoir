@@ -226,3 +226,9 @@ WHERE e.id IS 99
 
  
 * Who is an employee number 263?
+```sql
+SELECT *
+FROM employee_records
+WHERE id = 263
+;
+```
