@@ -232,3 +232,8 @@ FROM employee_records
 WHERE id = 263
 ;
 ```
+|id|employee_name|department|occupation|home_address|
+|:----|:----|:----|:----|:----|
+|263|Norman Owens|Quantum Computing|Quantum Systems Engineer|234 Quantum Waters Lane, Key Biscayne, FL|
+
+He has not information at any other tables.
