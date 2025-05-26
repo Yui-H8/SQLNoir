@@ -239,9 +239,14 @@ WHERE id = 263
 * He got 2 email at the day.
 
 ```sql
-SELECT *
+SELECT e.id, e.employee_name, department, m.sender_employee_id, m.email_date, m.email_subject, m.email_content
 FROM employee_records e LEFT JOIN email_logs m
 ON e.id = m.recipient_employee_id
 WHERE e.id = 263
 ;
 ```
+|id|employee_name|department|sender_employee_id|email_date|email_subject|email_content|
+|:----|:----|:----|:----|:----|:----|:----|
+|263|Norman Owens|Quantum Computing|NULL|19890421|Realign Asset Trajectory|L’s schedule puts her close enough, but we need her inside F18 before 9. Trigger a minor alert or routine checkup to send her in by 8:30. Make sure she logs the visit. That part matters.|
+|263|Norman Owens|Quantum Computing|NULL|19890421|Execute Phase Window|Unlock 18 quietly by 9. He’ll use his own credentials to access it shortly after L leaves. No questions. Just ensure the timing lines up. The trail will lead exactly where it needs to.|
+
