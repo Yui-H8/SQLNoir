@@ -220,4 +220,7 @@ ON e.id = m.recipient_employee_id
 WHERE e.id IS 99
 ;
 ```
-  
+|id|employee_name|sender_employee_id|email_date|email_subject|email_content|
+|:----|:----|:----|:----|:----|:----|
+|99|Elizabeth Gordon|263|19890421|Alarm System Concern|I noticed something strange with the alarm system. There might be a potential malfunction near the chip. Thought you should check it out to be safe.|
+
