@@ -114,7 +114,6 @@ WHERE e.id IN ('99','112','33')
 |99|Elizabeth Gordon|Engineering|Solutions Architect|147 Coastal Pine Rd, Doral, FL|89|99|QX-035|19890421|08:30|
 |112|Ruth Henderson|Administration|Technical Documentation Specialist|543 Helium Road, Pinecrest, FL|NULL|NULL|NULL|NULL|NULL|
 
-* 📧 email_log -> null
 
 * 🗄 facility_access_log
 ```sql
@@ -211,3 +210,14 @@ AND (w.incident_id = 74 OR w.incident_id IS NULL)
 |56|Ann Peterson|Lab Technician|NULL|I heard what sounded like power tools being used inside the building well past closing time.|
 |56|Ann Peterson|Lab Technician|NULL|I heard unusual mechanical sounds coming from the secured storage area.|
 |99|Elizabeth Gordon|Solutions Architect|NULL|That day, I received an email from a colleague saying something was wrong with the alarm system. I went to check it out, but didn’t find anything unusual.|
+---
+* 📧 email_log -> recieved
+```sql
+SELECT e.id, e.employee_name, m.sender_employee_id,	
+m.email_date, m.email_subject, m.email_content
+FROM employee_records e JOIN email_logs m
+ON e.id = m.recipient_employee_id
+WHERE e.id IS 99
+;
+```
+  
