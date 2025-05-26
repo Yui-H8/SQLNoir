@@ -236,4 +236,12 @@ WHERE id = 263
 |:----|:----|:----|:----|:----|
 |263|Norman Owens|Quantum Computing|Quantum Systems Engineer|234 Quantum Waters Lane, Key Biscayne, FL|
 
-He has not information at any other tables.
+* He got 2 email at the day.
+
+```sql
+SELECT *
+FROM employee_records e LEFT JOIN email_logs m
+ON e.id = m.recipient_employee_id
+WHERE e.id = 263
+;
+```
