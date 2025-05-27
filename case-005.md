@@ -252,3 +252,18 @@ WHERE e.id = 263
 
 * No sender name; Norman Owens appears to be involved in the case.
 * Was Elizabeth Gordon taken advantage of?
+---
+* Access to the server in Helsinki on the day of the incident
+```sql
+SELECT server_location	, e.id, keycard_code, k.access_time, c.access_time
+FROM employee_records e JOIN keycard_access_logs k 
+ON e.id = k.employee_id
+JOIN computer_access_logs c
+ON e.id = c.employee_id
+WHERE server_location = 'Helsinki'
+AND c.access_date = 19890421
+;
+```
+|server_location|id|keycard_code|access_time|access_time|
+|:----|:----|:----|:----|:----|
+|Helsinki|99|QX-035|08:30|09:00|
